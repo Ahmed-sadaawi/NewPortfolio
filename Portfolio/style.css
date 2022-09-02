@@ -1,0 +1,861 @@
+main.our-single-page .about-me-content,
+main.our-single-page .about-me-content .overlay {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  /* background: #000; */
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+main.our-single-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+
+  /*================================ Start menu =============================================*/
+  /*================================ End menu ===============================================*/
+  /*-------------------------------- Start home content -------------------------------------*/
+  /*-------------------------------- End home content ---------------------------------------*/
+  /*-------------------------------- Start aboue me -------------------------------------*/
+  /*-------------------------------- End  about me ---------------------------------------*/
+}
+
+main.our-single-page .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid #2e2e2e;
+  z-index: 10;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  background: #000;
+}
+
+main.our-single-page .menu .fa-bars {
+  display: none;
+}
+
+main.our-single-page .menu .arrow {
+  background-color: #FC153F;
+  color: white;
+  padding: 1px 5px;
+  margin-top: 30px;
+  position: absolute;
+  right: 0;
+  opacity: .5;
+}
+
+main.our-single-page .menu .arrow:hover {
+  opacity: 1;
+}
+
+main.our-single-page .menu .Embaby {
+  color: #FC153F;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+main.our-single-page .menu .Ahmed_Sayed {
+  color: #7F7F7F;
+  text-align: center;
+  letter-spacing: 17px;
+}
+
+main.our-single-page .menu ul.items {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+
+main.our-single-page .menu ul.items li {
+  font-size: 20px;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #2e2e2e;
+}
+
+main.our-single-page .menu ul.items li:hover a {
+  padding-left: 3px;
+  color: #FFFFFF;
+}
+
+main.our-single-page .menu ul.items li i {
+  color: #FC153F;
+  padding-right: 7px;
+}
+
+main.our-single-page .menu ul.items li a {
+  color: #7F7F7F;
+  padding: 10px 0;
+}
+
+main.our-single-page .menu ul.items li a.active {
+  padding-left: 3px;
+  color: #FFFFFF;
+}
+
+main.our-single-page .menu .following-links .follow-me-text {
+  color: #FC153F;
+  position: absolute;
+  bottom: 9rem;
+  left: 17%;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+main.our-single-page .menu .following-links img {
+  width: 7%;
+  position: absolute;
+  bottom: 7rem;
+}
+
+main.our-single-page .menu .copy-right {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  color: #7F7F7F;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+main.our-single-page .menu .copy-right i.fa-copyright {
+  font-size: 12px;
+}
+
+main.our-single-page .home-content.container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+  z-index: 1;
+}
+
+main.our-single-page .home-content.container.next {
+  left: -100%;
+  display: none;
+}
+
+main.our-single-page .home-content.container .content {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+main.our-single-page .home-content.container .content p {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+main.our-single-page .home-content.container .content p .me {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+main.our-single-page .home-content.container .content p .freelancer {
+  letter-spacing: 5px;
+  position: relative;
+}
+
+@-webkit-keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+main.our-single-page .home-content.container .content p .web-developer {
+  color: #FC153F;
+}
+
+main.our-single-page .home-content.container .content p .web-developer::after {
+  content: "|";
+  margin-left: 5px;
+  -webkit-animation: cursor .7s ease-in-out infinite;
+  animation: cursor .7s ease-in-out infinite;
+}
+
+main.our-single-page .home-content.container .content button {
+  margin-top: 5rem;
+  color: #7F7F7F;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #FC153F;
+  background: 0;
+  -webkit-transition: all .37s ease-in;
+  transition: all .37s ease-in;
+}
+
+main.our-single-page .home-content.container .content button:hover {
+  cursor: pointer;
+  background: #FC153F;
+  color: #FFFFFF;
+}
+
+main.our-single-page .home-content.container img {
+  width: 50rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+main.our-single-page .about-me-content {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  color: #FFFFFF;
+  background-image: url("./images/about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+main.our-single-page .about-me-content .overlay {
+  background: #000000e0;
+  left: 19%;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  z-index: 3;
+}
+
+main.our-single-page .about-me-content .overlay.about-me-width {
+  left: 0%;
+}
+
+main.our-single-page .about-me-content .overlay .about {
+  font-size: 6rem;
+  letter-spacing: 10rem;
+  color: #2e2e2e;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-45%);
+  transform: translateX(-45%);
+}
+
+main.our-single-page .about-me-content .overlay .summary {
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  width: 50%;
+}
+
+main.our-single-page .about-me-content .overlay .summary h2 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+main.our-single-page .about-me-content .overlay .summary h2::before {
+  content: "|";
+  width: 10px;
+  height: 2.3rem;
+  background-color: #FC153F;
+  color: #FC153F;
+}
+
+main.our-single-page .about-me-content .overlay .summary h4 {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+
+main.our-single-page .about-me-content .overlay .summary h4 span {
+  color: #FC153F;
+}
+
+main.our-single-page .about-me-content .overlay .summary p {
+  color: #7F7F7F;
+  letter-spacing: .5px;
+  font-weight: 100;
+  line-height: 1.8;
+}
+
+main.our-single-page .about-me-content .overlay .summary button {
+  border: 1px solid #FC153F;
+  background: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top: 2rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+main.our-single-page .about-me-content .overlay .summary button:hover {
+  background: red;
+  color: #FFFFFF;
+}
+
+main.our-single-page .about-me-content .overlay .image span.column-up {
+  width: 3px;
+  height: 10px;
+  background-color: #FC153F;
+}
+
+main.our-single-page .about-me-content .overlay .image img {
+  position: absolute;
+  top: 23%;
+  right: 5%;
+  width: 32%;
+  border-radius: 5px;
+}
+
+main.our-single-page .about-me-content .overlay .info .info-left {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  width: 30rem;
+}
+
+main.our-single-page .about-me-content .overlay .info .line-in-the-middle {
+  width: 1px;
+  height: 7rem;
+  background-color: #2e2e2e;
+}
+
+main.our-single-page .about-me-content .overlay .info .info-right {
+  position: absolute;
+  bottom: 10%;
+  left: 63%;
+  width: 29rem;
+}
+
+main.our-single-page .skills {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/system.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main.our-single-page .skills .overlay {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.870);
+}
+
+main.our-single-page .skills .overlay .skills-title {
+  font-size: 6rem;
+  letter-spacing: 10rem;
+  color: #2e2e2e;
+  position: absolute;
+  top: 3rem;
+  left: 53%;
+  transform: translateX(-45%);
+}
+
+main.our-single-page .skills .overlay .skills-content {
+  width: 80%;
+  transform: translate(19%, 15rem);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.skills .overlay .skills-content .design-box {
+  padding: 7px;
+  border: 1px solid #515151;
+  text-align: center;
+}
+
+.skills .overlay .skills-content .design-box .design-title {
+  border-bottom: 1px solid #515151;
+  padding: 7px;
+  color: #FC153F;
+}
+
+.skills .overlay .skills-content .design-box .design-content {
+  padding: 15px 7px;
+  color: #7F7F7F;
+  text-align: left;
+
+}
+
+
+/* ----------- */
+.Projects {
+  margin-left: 20%;
+  text-align: center;
+}
+
+.Projects h2.header {
+  display: block;
+  color: #2e2e2ea1;
+  font-size: 4.7rem;
+  padding: 1rem 0;
+  letter-spacing: 3.7rem;
+}
+
+.Projects .project {
+  padding: 11px;
+  margin: .7rem;
+  border-radius: 7px;
+  color: #FC153F;
+  border: 1px solid #7F7F7F;
+  display: inline-block;
+  width: 27%;
+}
+
+.Projects .project .title {
+  font-size: 1.3rem;
+}
+
+section.Projects .project a.project-link {
+  color: #7F7F7F;
+  padding-right: 2.5rem;
+}
+
+section.Projects .project a.project-link:hover {
+  color: #FC153F;
+}
+
+.Projects .project img {
+  width: 100%;
+  border-radius: 7px;
+
+  background: #2e2e2e;
+}
+
+.Projects.project-transition {
+  margin: 0;
+  transition: all .3s ease-in;
+}
+
+/* -----------> */
+#menu.transition {
+  left: -20%;
+}
+
+#fa-arrow-left.still-show {
+  right: -24px;
+}
+
+.key {
+  letter-spacing: 3px;
+  color: #FC153F;
+  font-size: 19px;
+}
+
+.value {
+  letter-spacing: 5px;
+  display: inline;
+  color: #7F7F7F;
+}
+
+.key-border-bottom {
+  border-bottom: 1px solid #515151;
+  padding: 20px 0 7px 0;
+}
+
+/*================================ Start Media ===============================================*/
+@media only screen and (max-width: 1385px) {
+  main.our-single-page .menu .Embaby {
+    font-size: 50px;
+  }
+
+  main.our-single-page .menu .Ahmed_Sayed {
+    letter-spacing: 10px;
+  }
+
+  main.our-single-page .home-content.container .content {
+    top: 40%;
+    left: 27%;
+  }
+
+  main.our-single-page .home-content.container .content p .me {
+    font-size: 45px;
+  }
+
+  main.our-single-page .about-me-content .overlay .info .info-right {
+    width: 23rem;
+  }
+
+  main.our-single-page .about-me-content .overlay .about,
+  main.our-single-page .skills .overlay .skills-title {
+    font-size: 7rem;
+    letter-spacing: 6.5rem;
+  }
+
+}
+
+/*==============*/
+@media only screen and (max-width: 1040px) {
+  main.our-single-page .home-content.container .content {
+    top: 40%;
+    left: 25%;
+  }
+
+  main.our-single-page .home-content.container .content p .me {
+    font-size: 25px;
+  }
+
+  main.our-single-page .menu .Embaby {
+    font-size: 40px;
+  }
+
+  main.our-single-page .menu .Ahmed_Sayed {
+    letter-spacing: 5px;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary button {
+    display: none;
+  }
+
+  main.our-single-page .about-me-content .overlay .info .info-left {
+    width: 23rem;
+  }
+
+  main.our-single-page .about-me-content .overlay .info .info-right {
+    width: 17rem;
+  }
+
+  main.our-single-page .about-me-content .overlay .about,
+  main.our-single-page .skills .overlay .skills-title {
+    font-size: 6rem;
+    letter-spacing: 3rem;
+  }
+
+  .Projects .project .title {
+    font-size: 1rem;
+  }
+
+  .Projects .project .project-link {
+    font-size: 10px;
+  }
+
+  .Projects h2.header {
+    font-size: 3rem;
+    letter-spacing: 3rem;
+  }
+
+}
+
+/*======= Less than 800 ========*/
+@media only screen and (max-width: 800px) {
+  main.our-single-page .menu {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-right: none;
+    direction: rtl;
+  }
+
+  main.our-single-page .menu .fa-bars {
+    display: block;
+    color: #FC153F;
+    float: right;
+    padding-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    opacity: .7;
+  }
+
+  main.our-single-page .menu .fa-bars:hover {
+    opacity: 1;
+  }
+
+  main.our-single-page .menu .fa-bars.rotate__bars {
+    opacity: 1;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+
+  main.our-single-page .menu .arrow {
+    display: none;
+  }
+
+  main.our-single-page .menu .Embaby {
+    font-size: 30px;
+    margin-top: 1rem;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+
+  main.our-single-page .menu .Ahmed_Sayed {
+    letter-spacing: 7px;
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: -17px;
+  }
+
+  @-webkit-keyframes menuDown {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes menuDown {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 100%;
+    }
+  }
+
+  main.our-single-page .menu ul.items {
+    display: none;
+    position: absolute;
+    top: 63px;
+    left: 0;
+    right: 0;
+    background: #2e2e2e8e;
+    width: 100%;
+    text-align: center;
+    -webkit-animation-name: menuDown;
+    animation-name: menuDown;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: .17s;
+    animation-duration: .17s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+  main.our-single-page .menu ul.items li i {
+    display: none;
+  }
+
+  main.our-single-page .menu ul.items.show__none {
+    display: block;
+  }
+
+  main.our-single-page .menu .copy-right i,
+  main.our-single-page .menu .copy-right span {
+    display: none;
+  }
+
+  main.our-single-page .home-content.container .content {
+    top: 20%;
+    left: 10%;
+  }
+
+  main.our-single-page .home-content.container .content p .me {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  main.our-single-page .container .content button {
+    margin-top: 3rem;
+    padding: 7px 14px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  main.our-single-page .home-content.container img {
+    width: 40rem;
+  }
+
+  #menu.transition {
+    left: 0;
+  }
+
+  main.our-single-page .about-me-content .overlay {
+    left: 0%;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary {
+    width: 89%;
+  }
+
+  main.our-single-page .about-me-content .overlay .image img {
+    display: none;
+  }
+
+  main.our-single-page .about-me-content .overlay .info .info-left {
+    display: none;
+  }
+
+  main.our-single-page .about-me-content .overlay .info .info-right {
+    display: none;
+  }
+
+  main.our-single-page .about-me-content .overlay .about {
+    font-size: 7rem;
+    letter-spacing: 4rem;
+    top: 3rem;
+  }
+
+  main.our-single-page .skills .overlay .skills-title {
+    font-size: 7rem;
+    letter-spacing: 4rem;
+    top: 3rem;
+  }
+
+  .Projects {
+    margin: 0;
+  }
+
+  .Projects h2.header {
+    font-size: 2.5rem;
+    padding: 5rem 0 2rem 0;
+    letter-spacing: 2rem;
+  }
+}
+
+/*======= Less than 600 ========*/
+@media only screen and (max-width: 600px) {
+
+  main.our-single-page .menu .Ahmed_Sayed {
+    padding-left: 5px;
+  }
+
+  main.our-single-page .home-content.container .content {
+    top: 35%;
+    left: 17%;
+  }
+
+  main.our-single-page .home-content.container img {
+    display: none;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary h2 {
+    font-size: 1.1rem;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary h4 {
+    font-size: 16px;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary p {
+    font-size: 12px;
+  }
+
+  main.our-single-page .about-me-content .overlay .summary button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+
+  main.our-single-page .about-me-content .overlay .about {
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+    top: 4.5rem;
+  }
+
+  /* main.our-single-page .about-me-content .overlay .about, */
+  main.our-single-page .skills .overlay .skills-title {
+    font-size: 0;
+    letter-spacing: 0rem;
+    top: 5rem;
+    left: 50%;
+  }
+
+  main.our-single-page .skills .overlay .skills-content {
+    transform: translate(13%, 20%);
+    background: #000;
+  }
+
+  .Projects .project {
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+  }
+
+  body {
+    background: #000;
+  }
+
+}
+
+/*======= Less than 300 ========*/
+@media only screen and (max-width: 300px) {
+  main.our-single-page .home-content.container .content {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+
+  main.our-single-page .home-content.container .content p {
+    font-size: 17px;
+  }
+
+  main.our-single-page .home-content.container .content p .me {
+    font-size: 25px;
+  }
+
+  main.our-single-page .home-content.container img {
+    display: none;
+  }
+
+  main.our-single-page .home-content.container .content button {
+    margin-top: 1rem;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+
+  main.our-single-page .about-me-content .overlay .about,
+  main.our-single-page .skills .overlay .skills-title {
+    font-size: 2rem;
+    letter-spacing: 1.3rem;
+  }
+
+  main.our-single-page .about-me-content .overlay .about {
+    font-size: 2rem;
+    letter-spacing: 1.3rem;
+    top: 4.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
